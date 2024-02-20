@@ -1,18 +1,250 @@
 {
-  "res": [
+  "CustomerSignUp": [
     {
-      "posts": [
-        { "id": 1, "title": "Post 1" },
-        { "id": 2, "title": "Post 2" },
-        { "id": 3, "title": "Post 3" }
-      ],
-      "comments": [
-        { "id": 1, "body": "some comment", "postId": 1 },
-        { "id": 2, "body": "some comment", "postId": 1 }
-      ],
-      "profile": {
-        "name": "typicode"
-      }
+      "id": "9f72",
+      "firstName": "sdfsd",
+      "lastName": "sfd",
+      "phone": "9566157009"
+    },
+    {
+      "id": "29c7",
+      "firstName": "sdfsd",
+      "lastName": "sdfsd",
+      "phone": "1234567890"
+    },
+    {
+      "id": "5364",
+      "firstName": "test",
+      "lastName": "test",
+      "phone": "9566157009"
     }
-  ]
+  ],
+  "AuthenticateMobile": [
+    {
+      "nummber": "9566157009",
+      "barCode": "546546564",
+      "ccno": "8973456",
+      "OTP": "111111"
+    },
+    {
+      "nummber": "7382266724",
+      "barCode": "546799564",
+      "ccno": "8635696",
+      "OTP": "111222"
+    }
+  ],
+  "GetWashPlans": {
+    "name": "WashPlan",
+    "products": [
+      {
+        "productTypeId": 8,
+        "price": 25,
+        "taxRate": 0,
+        "taxable": false,
+        "taxIncluded": false,
+        "description": "Ultimate Wash",
+        "subDescription": null,
+        "serviceList": [
+          "VantaGloss Ceramic Wax",
+          "Total Body Protection",
+          "Wheel Cleaner",
+          "Triple Foam Bath",
+          "Tire Shine",
+          "Grand Entry Presoak",
+          "Drying Agent",
+          "Power Air Dry"
+        ],
+        "stylings": {
+          "sCardBoxColor": "",
+          "sTitleColor": "",
+          "sDescriptionTitleColor": "",
+          "sDescriptionUnorderList": "",
+          "sPriceBoxColor": "",
+          "sPriceTextColor": "",
+          "sImageUrl": null
+        }
+      },
+      {
+        "productTypeId": 6,
+        "price": 20,
+        "taxRate": 0,
+        "taxable": false,
+        "taxIncluded": false,
+        "description": "Delux Wash",
+        "subDescription": null,
+        "serviceList": [
+          "Total Body Protection",
+          "Wheel Cleaner",
+          "Triple Foam Bath",
+          "Tire Shine",
+          "Grand Entry Presoak",
+          "Drying Agent",
+          "Power Air Dry"
+        ],
+        "stylings": {
+          "sCardBoxColor": "",
+          "sTitleColor": "",
+          "sDescriptionTitleColor": "",
+          "sDescriptionUnorderList": "",
+          "sPriceBoxColor": "",
+          "sPriceTextColor": "",
+          "sImageUrl": null
+        }
+      },
+      {
+        "productTypeId": 7,
+        "price": 16,
+        "taxRate": 0,
+        "taxable": false,
+        "taxIncluded": false,
+        "description": "Economy Wash",
+        "subDescription": null,
+        "serviceList": [
+          "Tire Shine",
+          "Grand Entry Presoak",
+          "Drying Agent",
+          "Power Air Dry"
+        ],
+        "stylings": {
+          "sCardBoxColor": "",
+          "sTitleColor": "",
+          "sDescriptionTitleColor": "",
+          "sDescriptionUnorderList": "",
+          "sPriceBoxColor": "",
+          "sPriceTextColor": "",
+          "sImageUrl": null
+        }
+      },
+      {
+        "productTypeId": 5,
+        "price": 11,
+        "taxRate": 0,
+        "taxable": false,
+        "taxIncluded": false,
+        "description": "Basic Wash",
+        "subDescription": null,
+        "serviceList": [
+          "Grand Entry Presoak",
+          "Drying Agent",
+          "Power Air Dry"
+        ],
+        "stylings": {
+          "sCardBoxColor": "",
+          "sTitleColor": "",
+          "sDescriptionTitleColor": "",
+          "sDescriptionUnorderList": "",
+          "sPriceBoxColor": "",
+          "sPriceTextColor": "",
+          "sImageUrl": null
+        }
+      }
+    ]
+  },
+  "GetUnlimitedPlans": {
+    "name": "UnlimitedPlan",
+    "products": [
+      {
+        "productTypeId": 1,
+        "price": 39.99,
+        "taxRate": 0,
+        "taxable": false,
+        "taxIncluded": false,
+        "description": "ULTIMATE Wash Unlimited",
+        "subDescription": null,
+        "serviceList": [
+          "VantaGloss Ceramic Wax",
+          "Total Body Protection",
+          "Wheel Cleaner",
+          "Triple Foam Bath",
+          "Tire Shine",
+          "Grand Entry Presoak",
+          "Drying Agent",
+          "Power Air Dry"
+        ],
+        "stylings": {
+          "sCardBoxColor": "",
+          "sTitleColor": "",
+          "sDescriptionTitleColor": "",
+          "sDescriptionUnorderList": "",
+          "sPriceBoxColor": "",
+          "sPriceTextColor": "",
+          "sImageUrl": null
+        }
+      },
+      {
+        "productTypeId": 2,
+        "price": 33.99,
+        "taxRate": 0,
+        "taxable": false,
+        "taxIncluded": false,
+        "description": "DELUX Wash Unlimited",
+        "subDescription": null,
+        "serviceList": [
+          "Total Body Protection",
+          "Wheel Cleaner",
+          "Triple Foam Bath",
+          "Tire Shine",
+          "Grand Entry Presoak",
+          "Drying Agent",
+          "Power Air Dry"
+        ],
+        "stylings": {
+          "sCardBoxColor": "",
+          "sTitleColor": "",
+          "sDescriptionTitleColor": "",
+          "sDescriptionUnorderList": "",
+          "sPriceBoxColor": "",
+          "sPriceTextColor": "",
+          "sImageUrl": null
+        }
+      },
+      {
+        "productTypeId": 3,
+        "price": 28.99,
+        "taxRate": 0,
+        "taxable": false,
+        "taxIncluded": false,
+        "description": "ECONOMY Wash Unlimited",
+        "subDescription": null,
+        "serviceList": [
+          "Tire Shine",
+          "Grand Entry Presoak",
+          "Drying Agent",
+          "Power Air Dry"
+        ],
+        "stylings": {
+          "sCardBoxColor": "",
+          "sTitleColor": "",
+          "sDescriptionTitleColor": "",
+          "sDescriptionUnorderList": "",
+          "sPriceBoxColor": "",
+          "sPriceTextColor": "",
+          "sImageUrl": null
+        }
+      },
+      {
+        "productTypeId": 4,
+        "price": 19.99,
+        "taxRate": 0,
+        "taxable": false,
+        "taxIncluded": false,
+        "description": "BASIC Wash Unlimited",
+        "subDescription": null,
+        "serviceList": [
+          "Grand Entry Presoak",
+          "Drying Agent",
+          "Power Air Dry"
+        ],
+        "stylings": {
+          "sCardBoxColor": "",
+          "sTitleColor": "",
+          "sDescriptionTitleColor": "",
+          "sDescriptionUnorderList": "",
+          "sPriceBoxColor": "",
+          "sPriceTextColor": "",
+          "sImageUrl": null
+        }
+      }
+    ]
+  }
 }
